@@ -1,5 +1,5 @@
 ## Population Density Maps 
-[This]()This Streamlit Python application transforms the Colab Notebook developed by Steven Kent into an interactive tool for exploring housing density by country. Users can enter a 3-letter country code from a provided list, and the application will generate a housing density map for the selected country.
+[This](https://pop-density-maps.streamlit.app/)This Streamlit Python application transforms the Colab Notebook developed by Steven Kent into an interactive tool for exploring housing density by country. Users can enter a 3-letter country code from a provided list, and the application will generate a housing density map for the selected country.
 
 ## Technology Stack 
 1. Prototype: Python Streamlit 
@@ -28,4 +28,4 @@ streamlit run app.py
 ```
 
 ## References 
-1. Stephen Kent. Egypt Buildings. A Google Colab Notebook for Querying S3 Data and build a Map using Python and SQL. https://github.com/kentstephen/egypt_buildings
+1. **Stephen Kent**. Egypt Buildings. A Google Colab Notebook for Querying S3 Data and build a Map using Python and SQL. https://github.com/kentstephen/egypt_buildings
