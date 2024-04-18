@@ -1,10 +1,6 @@
 ## Population Density Maps 
 [This](https://pop-density-maps.streamlit.app/) Streamlit Python application transforms the Colab Notebook developed by Steven Kent into an interactive tool for exploring housing density by country. Users can enter a 3-letter country code from a provided list, and the application will generate a housing density map for the selected country.
 
-## Technology Stack 
-1. [Prototype:](https://pop-density-maps.streamlit.app/) Python Streamlit 
-2. Production Deployment: Modal Labs 
-
 ## How to clone and run this app on your machine
 
 ```python
