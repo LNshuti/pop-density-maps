@@ -21,7 +21,7 @@ import duckdb
 st.title("Building Visualization by Country")
 
 # Country selection dropdown
-country_iso = st.selectbox("Select a country by ISO code", ["SLV", "EGY", "TZA", "BRA"])
+country_iso = st.selectbox("Select a country by ISO code", ["SLV", "EGY", "TZA", "TUN","MOZ", "NAM", "NER", "NGA", "RWA"])
 
 # Database connection and data retrieval
 @st.cache_data
