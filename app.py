@@ -27,7 +27,7 @@ country_iso = st.selectbox("Select a country by ISO code",
                             "DJI", "GNQ", "ERI", "SWZ", "ETH", "GAB", "SDN", "SOM", "KEN",
                             "MDG", "ZWE", "LSO", "ZAF", "AGO", "ZMB", "COD", "SSD", "UGA",  
                             "BEN", "TGO", "GHA", "CIV", "LBR", "SLE", "GIN", "GNB", "MLI", 
-                            "GMB", "MRT", "DZA", "MAR", "ESH", "LBY"]
+                            "GMB", "MRT", "DZA", "MAR", "ESH", "LBY", "MWI"]
                          )
 
 # Database connection and data retrieval
