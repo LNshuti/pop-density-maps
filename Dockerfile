@@ -5,7 +5,7 @@ FROM python:3.11
 WORKDIR /app
 
 # Copy the current directory contents into the container except the file ending in .drawio
-COPY !(*.drawio) /app
+COPY . /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
