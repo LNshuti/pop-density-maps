@@ -22,14 +22,8 @@ streamlit run app.py
 ```
 
 ## How to deploy the app with Docker
-
-#### Clone this repo
+#### Build the docker image
 ```python
-git clone https://github.com/LNshuti/pop-density-maps.git
-```
-#### Navigate to the repo and build the docker image
-```python
-cd pop-density-maps
 docker build -t pop-density .
 ```
 #### Run the application
