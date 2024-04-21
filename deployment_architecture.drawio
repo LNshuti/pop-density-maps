@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+    <diagram id="kC-iGodgFAaS5sEuYw2M" name="Page-1">
+        <mxGraphModel dx="811" dy="440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" style="edgeStyle=none;html=1;fontColor=#FFB366;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;h1&gt;Dockerfile&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#990099&quot;&gt;FROM&lt;/font&gt; &lt;font color=&quot;#006600&quot;&gt;python&lt;/font&gt;:&lt;font color=&quot;#00cccc&quot;&gt;3.11&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#990099&quot;&gt;WORKDIR&lt;/font&gt; &lt;font color=&quot;#00cccc&quot;&gt;/app&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#990099&quot;&gt;COPY&lt;/font&gt; &lt;font color=&quot;#00cccc&quot;&gt;app.py /app&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#990099&quot;&gt;CMD&lt;/font&gt; [ &lt;font color=&quot;#ffb366&quot;&gt;&quot;streamlit&quot;&lt;/font&gt;, &lt;font color=&quot;#ffb366&quot;&gt;&quot;run&quot;&lt;/font&gt;, &lt;font color=&quot;#ffb366&quot;&gt;&quot;app.py&quot;&lt;/font&gt;]&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="80" width="200" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;h1&gt;Docker Image&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#00cccc&quot; style=&quot;background-color: initial;&quot;&gt;CMD streamlit run /app/app.py&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#00cccc&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#9;&lt;/span&gt;/app/app.py&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#00cccc&quot;&gt;Python:3.11 Base Image&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="382" y="92" width="200" height="136" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
