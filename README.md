@@ -3,46 +3,41 @@
 
 ## How to clone and run this app on your machine
 
+#### Step 1. Clone this repo
 ```python
-# Clone this repo
 git clone https://github.com/LNshuti/pop-density-maps.git
 ```
-
+#### Step 2: Create an isolated environment to manage dependencies
 ```python
-# Step 2: Create an isolated environment to manage dependencies
 cd pop-density-maps
 conda env create --file=environment.yaml
 ```
-
+#### Step 3: Install the required python packages
 ```python
-# Step 3: Install the required python packages
 pip install -r requirements.txt 
 ```
-
+#### Step 5: Run Python Application
 ```python 
-# Step 5: Run Python Application
 streamlit run app.py
 ```
+
 ## How to deploy the app with Docker
 
+#### Clone this repo
 ```python
-# Clone this repo
 git clone https://github.com/LNshuti/pop-density-maps.git
 ```
-
+#### Navigate to the repo and build the docker image
 ```python
-# Navigate to the repo and build the docker image
 cd pop-density-maps
 docker build -t pop-density .
 ```
-
+#### Run the application
 ```python
-# Run the application
 docker run --rm -p 8501:8501 --name pop-density pop-density 
 ```
-
+#### Navigate to the application by typing the following in a web browser
 ```python
-# Navigate to the application by typing the following in a web browser
 http://localhost:8501/
 ```
 
