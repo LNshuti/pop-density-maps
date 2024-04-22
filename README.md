@@ -28,7 +28,7 @@ docker build -t pop-density .
 ```
 #### Run the application
 ```python
-docker run --rm -p 8501:8501 --name pop-density pop-density 
+docker run --rm -p 8501:8501 --name pop-density-container pop-density 
 ```
 #### Navigate to the application by typing the following in a web browser
 ```python
