@@ -31,7 +31,7 @@ country_iso = st.selectbox("Select a country by ISO code",
                          )
 
 # Database connection and data retrieval
-@st.cache_data
+@st.cache_data(ttl=3600)
 def load_data(country_iso):
     con = duckdb.connect()
     con.sql("""
