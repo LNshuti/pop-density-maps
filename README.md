@@ -1,5 +1,5 @@
 # Population Density Maps 
-[This Streamlit Python](https://pop-density-maps.streamlit.app/) application transforms the Colab Notebook developed by Steven Kent into an interactive tool for exploring housing density by country. Users can enter a 3-letter country code from a provided list, and the application will generate a housing density map for the selected country.
+[This Gradioo Python](https://pop-density-maps.streamlit.app/) application transforms the Colab Notebook developed by Steven Kent into an interactive tool for exploring housing density by country. Users can enter a 3-letter country code from a provided list, and the application will generate a housing density map for the selected country.
 
 ## DEMO
 Click the example generated image for Uganda below to view the app demo.
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 #### Step 5: Run Python Application
 ```python 
-streamlit run app.py
+python run app.py
 ```
 
 ## How to deploy the app with Docker
